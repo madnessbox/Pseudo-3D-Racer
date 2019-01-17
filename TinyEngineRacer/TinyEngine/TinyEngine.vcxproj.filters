@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{12311de7-5399-4558-baa2-bca76c0605c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Entity">
+      <UniqueIdentifier>{5f93cee9-f21c-4198-acd8-d93a3954406e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\World">
+      <UniqueIdentifier>{71e2f34a-853d-4dde-9259-8f0478e034bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Math">
+      <UniqueIdentifier>{c7b8e26a-b4f4-4504-a718-576f08d5bdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Level">
+      <UniqueIdentifier>{b728268a-b149-4a83-b350-8960ec00d76e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Code\World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldGenerator.cpp">
+      <Filter>Code\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="RoadSegment.cpp">
+      <Filter>Code\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteObject.cpp">
+      <Filter>Code\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TinyEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Code\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGenerator.h">
+      <Filter>Code\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Code\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadSegment.h">
+      <Filter>Code\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadMapSegment.h">
+      <Filter>Code\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteObject.h">
+      <Filter>Code\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+﻿  WorldGenerator.cpp
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\vector.h(65): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\vector.h(81): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\vector.h(82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\vector.h(89): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\vector.h(90): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\sphere.h(16): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\ray.h(37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\ray.h(38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\ray.h(38): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\plane.h(39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\plane.h(41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\plane.h(41): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\mathutils.h(32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\mathutils.h(33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\vector3.h(60): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\camera.h(5): warning C4099: 'Camera': type name first seen using 'class' now seen using 'struct'
+  c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\camera.h(4): note: see declaration of 'Camera'
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\include\sdl\sdl_rect.h(65): warning C4099: 'SDL_Rect': type name first seen using 'class' now seen using 'struct'
+  c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\include\sdl\sdl_rect.h(64): note: see declaration of 'SDL_Rect'
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(109): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(111): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(115): warning C4018: '<': signed/unsigned mismatch
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(166): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(174): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(175): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(189): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(195): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(203): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(211): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vilde.brobacke\onedrive - change maker education\programing\tinyengineracer\tinyengine\worldgenerator.cpp(212): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  TinyEngine.vcxproj -> C:\Users\vilde.brobacke\OneDrive - Change Maker Education\Programing\TinyEngineRacer\TinyEngine\bin\TinyEngine.exe
