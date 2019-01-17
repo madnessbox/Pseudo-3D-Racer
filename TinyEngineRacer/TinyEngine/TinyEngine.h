@@ -48,6 +48,7 @@ void engDrawString(int X, int Y, const char* String);
 // Draws a string at location with formatting options
 void engDrawStringFormat(int X, int Y, const char* String, ...);
 
+// Draws a sprite at location with size options
 void engDrawSprite(int x, int y, int size_w, int size_h, int image_w, int image_h, int imgX, int imgY, char* imagePath);
 
 /*** INPUT ***/

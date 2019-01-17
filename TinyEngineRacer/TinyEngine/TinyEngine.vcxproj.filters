@@ -40,9 +40,6 @@
     <ClCompile Include="Car.cpp">
       <Filter>Code</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteObject.cpp">
-      <Filter>Code\Entity</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TinyEngine.h">
@@ -78,9 +75,6 @@
     <ClInclude Include="Plane.h">
       <Filter>Code\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Cube.h">
-      <Filter>Code\Math</Filter>
-    </ClInclude>
     <ClInclude Include="WorldGenerator.h">
       <Filter>Code\Level</Filter>
     </ClInclude>
@@ -98,9 +92,6 @@
     </ClInclude>
     <ClInclude Include="Car.h">
       <Filter>Code</Filter>
-    </ClInclude>
-    <ClInclude Include="SpriteObject.h">
-      <Filter>Code\Entity</Filter>
     </ClInclude>
     <ClInclude Include="Timer.h">
       <Filter>Engine</Filter>

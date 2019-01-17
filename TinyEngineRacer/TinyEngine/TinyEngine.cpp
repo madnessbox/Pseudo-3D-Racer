@@ -6,20 +6,6 @@
 #include <varargs.h>
 #define TAU 6.28318530718f
 
-/* NOTE
- * This engine is not for any sort of serious use, it's just used as a tool for teaching basic programming
- * However; if you're here to hack, here are some things you could try implementing;
-
- - Drawing sprites/images
- - Changing font
- - Mouse support
- - Gamepad support
- - Sound support
- - Refactor into separate files
- - Make the engine object-oriented (using classes and/or structs)
-
- * Good luck!
- */
 
 // Variables controlling the SDL context
 static SDL_Window* Window;

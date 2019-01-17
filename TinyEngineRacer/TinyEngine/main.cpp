@@ -14,7 +14,6 @@ void main()
 	engInit(1500, 1000);
 	srand(time(NULL));
 
-	//World gameworld;
 	Camera Cam;
 	Cam.Width = 1500;
 	Cam.Height = 1000;

@@ -25,8 +25,6 @@ WorldGenerator::WorldGenerator(unsigned int WindowWidth, unsigned int WindowHeig
 	WindowWidth(WindowWidth), WindowHeight(WindowHeight), Cam(Cam)
 {
 	GenerateRoad();
-
-	//PlayerCar = new Car(WindowWidth, WindowHeight);
 }
 
 void WorldGenerator::GenerateRoad()
@@ -39,7 +37,6 @@ void WorldGenerator::GenerateRoad()
 		RoadSeg.Index = i;
 		RoadSegmentsArray[i] = RoadSeg;
 	}
-
 
 	RoadSegmentsArray[100].RightSideSprite = "palm_tree.png";
 
@@ -156,16 +153,11 @@ void WorldGenerator::DrawRoad()
 
 void WorldGenerator::DrawRoadLine(RoadSegment& S, int Index, int RectsIndex)
 {
-	// Draw Ground
-	//engSetColor(VAPORPURP);
-	//engDrawRect(WindowWidth / 2, S.ScreenPosition.y, WindowWidth, S.ZLength);
-
 	if (Index % 50 == 0)
 	{
 		engSetColor(VAPORBLUE);
 		engDrawRect(WindowWidth / 2, S.ScreenPosition.y, WindowWidth, S.ZLength * 0.8f);
 
-		//RectsToDraw[RectsIndex] = &engMakeRect(WindowWidth / 2, S.ScreenPosition.y, WindowWidth, S.ZLength * 0.8f);
 	}
 
 	for (int i = 1; i <= 5; i++)
@@ -173,10 +165,6 @@ void WorldGenerator::DrawRoadLine(RoadSegment& S, int Index, int RectsIndex)
 		engSetColor(VAPORBLUE);
 		engDrawRect(S.ScreenPosition.x + (S.Width * i), S.ScreenPosition.y, S.ZLength * 1.2f, S.ZLength);
 		engDrawRect(S.ScreenPosition.x - (S.Width * i), S.ScreenPosition.y, S.ZLength * 1.2f, S.ZLength);
-
-		//RectsToDraw[RectsIndex] = &engMakeRect(S.ScreenPosition.x + (S.Width * i), S.ScreenPosition.y, S.ZLength * 1.2f, S.ZLength);
-		//RectsToDraw[RectsIndex] = &engMakeRect(S.ScreenPosition.x - (S.Width * i), S.ScreenPosition.y, S.ZLength * 1.2f, S.ZLength);
-
 	}
 
 	// Set Rubble Color
@@ -187,13 +175,11 @@ void WorldGenerator::DrawRoadLine(RoadSegment& S, int Index, int RectsIndex)
 
 	// Draw Rubble
 	engDrawRect(S.ScreenPosition.x, S.ScreenPosition.y, S.Width * 1.1f, S.ZLength);
-	//RectsToDraw[RectsIndex] = &engMakeRect(S.ScreenPosition.x, S.ScreenPosition.y, S.Width * 1.1f, S.ZLength);
 
 
 	// Draw Road
 	engSetColor(S.RenderColor);
 	engDrawRect(S.ScreenPosition.x, S.ScreenPosition.y, S.Width, S.ZLength);
-	//RectsToDraw[RectsIndex] = &engMakeRect(S.ScreenPosition.x, S.ScreenPosition.y, S.Width, S.ZLength);
 
 
 	// Draw RoadLines
@@ -201,8 +187,6 @@ void WorldGenerator::DrawRoadLine(RoadSegment& S, int Index, int RectsIndex)
 	{
 		engSetColor(0xFFFFFFFF);
 		engDrawRect(S.ScreenPosition.x, S.ScreenPosition.y, S.Width * 0.05f, S.ZLength);
-		//RectsToDraw[RectsIndex] = &engMakeRect(S.ScreenPosition.x, S.ScreenPosition.y, S.Width * 0.05f, S.ZLength);
-
 	}
 
 
@@ -231,13 +215,6 @@ void WorldGenerator::DrawBackground()
 	engSetColor(0x2d1f36FF);
 	engDrawRect(WindowWidth / 2, WindowHeight, WindowWidth, WindowHeight);
 
-
-	// Draw Gradient background
-	/*for (int i = 0; i < 10; i++)
-	{
-
-	}*/
-
 	// Draw Sun
 	engDrawSprite((WindowWidth / 2) - 250, (WindowHeight / 2) - 400, 500, 465, 500, 465, 0, 0, "sun.png");
 }
@@ -251,7 +228,6 @@ void WorldGenerator::DrawWorld()
 {
 	DrawBackground();
 	DrawRoad();
-	//engDrawRects(RectsToDraw, RenderDistance * 6);
 
 	DrawCar();
 }
